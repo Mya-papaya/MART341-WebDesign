@@ -6,7 +6,7 @@ This course has been a great opportunity to refresh my knowledge and expand my s
 
 **One of the highlights** has been working with GitHub and Markdown, as version control is an essential skill for web development.  
 
-*However, I’m looking forward to learning even more*, especially when it comes to optimizing my projects and improving efficiency.  
+*However, I’m looking forward to learning even more*, especially when optimizing my projects and improving efficiency.  
 
 ### Topics I’m Excited About  
 - Advanced CSS techniques  
