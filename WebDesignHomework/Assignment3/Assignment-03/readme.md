@@ -1,22 +1,17 @@
-# My Web Design Journey  
+# Assignment 3 - Web Design Practice  
 
-## Reflecting on the Course So Far  
+## Project Overview  
 
-This course has been a great opportunity to refresh my knowledge and expand my skills. I’m already familiar with Visual Studio Code, but I’m excited to dive deeper and refine my workflow.  
+This project is part of my web design coursework. In this assignment, I am practicing file organization, Markdown formatting, and GitHub integration.  
 
-**One of the highlights** has been working with GitHub and Markdown, as version control is an essential skill for web development.  
+### Included Files  
+- `responses.txt` – My website ideas  
+- `images/` – Screenshots of my progress  
 
-*However, I’m looking forward to learning even more*, especially when it comes to optimizing my projects and improving efficiency.  
+### Link to My Responses  
+[View my website ideas](responses.txt)  
 
-### Topics I’m Excited About  
-- Advanced CSS techniques  
-- Responsive web design  
-- JavaScript best practices  
-
-### A Resource That Has Helped Me  
-[Markdown Guide](https://www.markdownguide.org/) – This website has been extremely useful for learning Markdown formatting.  
-
-### My Progress in Visual Studio Code  
+### Screenshots  
 #### Responses.txt in VS Code  
 ![Screenshot of responses.txt](images/ss_responses.png)  
 
