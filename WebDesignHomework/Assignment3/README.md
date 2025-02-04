@@ -18,7 +18,7 @@ This course has been a great opportunity to refresh my knowledge and expand my s
 
 ### My Progress in Visual Studio Code  
 #### Responses.txt in VS Code  
-![Screenshot of responses.txt](images/ss_responses.png)  
+![Screenshot of responses.txt](WebDesignHomework/Assignment3/Assignment-03/images/ss_responses.png)  
 
 #### README.md in VS Code  
-![Screenshot of README.md](images/ss_readme.png)  
+![Screenshot of README.md](WebDesignHomework/Assignment3/Assignment-03/images/ss_readme.png)  
