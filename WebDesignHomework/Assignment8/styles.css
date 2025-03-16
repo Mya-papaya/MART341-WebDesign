@@ -1,0 +1,113 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container for content */
+.content {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Headings */
+h1, h2 {
+    color: #2e8b57;
+    margin-bottom: 15px;
+}
+
+/* Paragraph Styling */
+p {
+    margin-bottom: 15px;
+}
+
+/* Lists */
+ul, ol {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+/* Header Image */
+.card-image {
+    width: 100%;
+    max-width: 100%; /* Ensures the header image takes up full width */
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Featured Recipe Image */
+.recipe-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Featured Recipe Section Styling */
+.featured-recipe {
+    margin-top: 30px;
+}
+
+.featured-recipe img {
+    max-width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Links */
+a {
+    color: #2e8b57;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Button Styling */
+.btn {
+    background-color: #2e8b57;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #3c9b69;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .content {
+        width: 95%;
+    }
+
+    /* Adjust the header image for smaller screens */
+    .card-image {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Adjust featured recipe image on small screens */
+    .featured-recipe img {
+        max-width: 100%;
+    }
+}
