@@ -68,7 +68,3 @@ Here’s a summary of the key updates completed over the past few weeks:
 - **Weather Widget**: Powered by [WeatherWidget.io](https://weatherwidget.io/).
 - **Header Video**: Provided by Towfiqu Ahamed Barbhuiya via [Vecteezy](https://www.vecteezy.com/).
 - **Gardening Tips Resource**: Linked to [Garden Savvy](https://gardensavvy.com/).
-
----
-
-This structure highlights your hard work and organizes it beautifully. Let me know if you’d like any other details added!
