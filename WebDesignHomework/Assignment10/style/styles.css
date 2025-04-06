@@ -1,0 +1,303 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    background-color: #f5f5dc; /* Soft beige for a warm, natural tone */
+    font-family: Arial, sans-serif;
+    color: #4b3621; /* Earthy dark brown for text */
+    line-height: 1.6;
+}
+
+/* Navigation */
+nav {
+    background: linear-gradient(to right, #8fbc8f, #2e8b57); /* Gradient green tones */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f5f5dc; /* Soft beige hover effect */
+    text-decoration: underline;
+}
+
+/* Content Container */
+.content {
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.9); /* Slight transparency */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Headings */
+h1, h2 {
+    color: #1f3e39; /* Deep green for elegance */
+    margin-bottom: 15px;
+    font-family: 'Georgia', serif; /* Add some variety with a serif font */
+}
+
+h1 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+/* Paragraph Styling */
+p {
+    margin-bottom: 15px;
+}
+
+/* Lists */
+ul, ol {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+/* Links */
+a {
+    color: #2e8b57;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Buttons */
+.btn {
+    background-color: #d2691e; /* Earthy orange */
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #a0522d; /* Deeper warm brown for hover */
+}
+
+/* Contact Form Styling */
+.contact {
+    background-color: rgba(255, 255, 255, 0.95);
+    color: #4b3621;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 40px auto;
+    font-size: 1.1em;
+    border: 2px solid #2e8b57;
+}
+
+.contact h2 {
+    font-family: 'Georgia', serif;
+    font-size: 2em;
+    color: #2f4f4f;
+    margin-bottom: 15px;
+}
+
+.contact p,
+.contact label,
+.contact a {
+    font-family: Arial, sans-serif;
+    color: #4b3621;
+    margin-bottom: 10px;
+}
+
+.contact ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.contact a {
+    color: #2e8b57;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+    color: #a0522d;
+}
+
+.contact form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact input[type="text"],
+.contact textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-bottom: 15px;
+    background-color: #fdfdfd;
+    color: #333;
+}
+
+.contact textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.contact button {
+    background-color: #d2691e;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.contact button:hover {
+    background-color: #a0522d;
+}
+
+/* Section Borders */
+section {
+    border: 2px solid #2e8b57; /* Green border */
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    background-color: rgba(240, 248, 255, 0.85); /* Transparent background */
+}
+
+/* Header Image */
+.card-image {
+    width: 100%;
+    max-width: 100%; /* Ensures the header image takes up full width */
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Featured Recipe Image */
+.recipe-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Featured Recipe Section Styling */
+.featured-recipe {
+    margin-top: 30px;
+}
+
+.featured-recipe img {
+    max-width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Forum Mockup */
+.forum-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.forum-table th, .forum-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.forum-table th {
+    background-color: #2e8b57; /* Green header */
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #2e8b57;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-top: 2px solid #a0522d; /* Earthy orange border */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .content {
+        width: 95%;
+    }
+
+    .card-image {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .featured-recipe img {
+        max-width: 100%;
+    }
+}
+/* Video Banner */
+.video-banner {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.hero-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(8, 29, 20);
+    text-shadow:
+    -2px -2px 0 #f5f5dc,
+     2px -2px 0 #f5f5dc,
+    -2px  2px 0 #f5f5dc,
+     2px  2px 0 #f5f5dc,
+    -3px  0   0 #f5f5dc,
+     3px  0   0 #f5f5dc,
+     0   -3px 0 #f5f5dc,
+     0    3px 0 #f5f5dc,
+     0    0   8px rgba(0, 0, 0, 0.8); 
+
+}
+
+
