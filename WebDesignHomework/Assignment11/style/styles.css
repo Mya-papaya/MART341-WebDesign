@@ -88,11 +88,60 @@ h2::before {
     transform: scale(1.05);
 }
 
-/* Contact Form */
+/* Contact Form Styling */
+.contact {
+    background-color: rgba(255, 255, 255, 0.95);
+    color: #4b3621;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 40px auto;
+    font-size: 1.1em;
+    border: 2px solid #2e8b57;
+}
+
+.contact h2 {
+    font-family: 'Georgia', serif;
+    font-size: 2em;
+    color: #2f4f4f;
+    margin-bottom: 15px;
+}
+
+.contact p,
+.contact label,
+.contact a {
+    font-family: Arial, sans-serif;
+    color: #4b3621;
+    margin-bottom: 10px;
+}
+
+.contact ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.contact a {
+    color: #2e8b57;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+    color: #a0522d;
+}
+
 .contact form {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
+}
+
+.contact label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
 
 .contact input[type="text"],
@@ -106,6 +155,11 @@ h2::before {
     color: #333;
 }
 
+.contact textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
 .contact button {
     background-color: #d2691e;
     color: white;
@@ -115,12 +169,10 @@ h2::before {
     border-radius: 5px;
     cursor: pointer;
     align-self: flex-start;
-    margin: 20px 0;
 }
 
 .contact button:hover {
     background-color: #a0522d;
-    transform: scale(1.05);
 }
 
 /* Forum Cards */
