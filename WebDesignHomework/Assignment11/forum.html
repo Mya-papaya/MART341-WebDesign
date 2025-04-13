@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum - Sustainable Eats</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+    <!-- Header Video Section -->
+    <div class="video-banner">
+        <video autoplay loop muted playsinline class="hero-video">
+            <source src="media/hero-video.mp4" alt="Forum Header Video of vegetables" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="banner-text">
+            <h1>Welcome to Sustainable Eats</h1>
+            <p>Join the conversation about eco-friendly cooking and living.</p>
+        </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="content">
+        <!-- Navigation -->
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="featured.html">Featured</a> |
+            <a href="recipes.html">Submit Recipe</a> |
+            <a href="forum.html" class="active">Forum</a> |
+            <a href="contact.html">Contact Us</a>
+        </nav>
+
+        <!-- Forum Section -->
+        <section class="forum">
+            <h2>Forum Topics</h2>
+            <div class="forum-card">
+                <h3>Zero-Waste Kitchen Tips</h3>
+                <p>Discuss how to use every part of your ingredients and reduce waste. <span class="highlight">Share your creative hacks!</span></p>
+            </div>
+            <div class="forum-card">
+                <h3>Eco-Friendly Cooking Challenges</h3>
+                <p>Join others in experimenting with sustainable ingredients and dishes.</p>
+            </div>
+            <div class="forum-card">
+                <h3>Ingredient Swaps</h3>
+                <p>Talk about <span class="highlight">cheap & eco-friendly substitutes</span> for common ingredients.</p>
+            </div>
+
+            <h2>Forum Discussions</h2>
+            <table class="forum-table">
+                <thead>
+                    <tr>
+                        <th>Topic</th>
+                        <th>Author</th>
+                        <th>Replies</th>
+                        <th>Last Activity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#topic1">How to Compost at Home</a></td>
+                        <td>EcoChef</td>
+                        <td>12</td>
+                        <td>2 hours ago</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#topic2">Sustainable Ingredient Swaps</a></td>
+                        <td>GreenFoodie</td>
+                        <td>8</td>
+                        <td>5 hours ago</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#topic3">DIY Herb Garden Tips</a></td>
+                        <td>PlantLover</td>
+                        <td>5</td>
+                        <td>1 day ago</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3 id="topic1">How to Compost at Home</h3>
+            <div class="post">
+                <p><strong>EcoChef:</strong> Composting has changed my life! You just need kitchen scraps, yard waste, and a little patience. Any specific questions?</p>
+                <p><em>Posted 2 hours ago</em></p>
+            </div>
+            <div class="post reply">
+                <p><strong>GreenFoodie:</strong> Totally agree! What’s the best ratio of greens to browns for a beginner?</p>
+                <p><em>Posted 1 hour ago</em></p>
+            </div>
+            <div class="post reply">
+                <p><strong>PlantLover:</strong> I’ve been using 2 parts brown to 1 part green. Works great for me!</p>
+                <p><em>Posted 30 minutes ago</em></p>
+            </div>
+        </section>
+
+        <!-- Weather and Gardening Tips Section -->
+        <section class="weather-tips">
+            <h2>Live Weather & Gardening Tips</h2>
+
+            <!-- Weather Widget -->
+            <div class="widget-container">
+                <a class="weatherwidget-io" 
+                   href="https://forecast7.com/en/46d88n114d00/missoula/?unit=us" 
+                   data-label_1="MISSOULA" 
+                   data-label_2="WEATHER" 
+                   data-theme="pure">
+                   MISSOULA WEATHER
+                </a>
+                <script>
+                    !function(d,s,id){
+                        var js,fjs=d.getElementsByTagName(s)[0];
+                        if(!d.getElementById(id)){
+                            js=d.createElement(s);
+                            js.id=id;
+                            js.src='https://weatherwidget.io/js/widget.min.js';
+                            fjs.parentNode.insertBefore(js,fjs);
+                        }
+                    }(document,'script','weatherwidget-io-js');
+                </script>
+            </div>
+
+            <!-- Gardening Blog Section -->
+            <div class="gardening-container">
+                <h3>Explore Gardening Tips</h3>
+                <p>Check out Garden Savvy’s blog for expert advice, seasonal tips, and sustainable gardening ideas.</p>
+                <a href="https://gardensavvy.com/gardening-blog/" target="_blank" class="btn">
+                    Visit Garden Savvy's Gardening Blog
+                </a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
